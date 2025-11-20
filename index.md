@@ -7,3 +7,6 @@ We work on:
 - Applied ML & optimization
 - Chemical, food, and bio systems engineering
 - Systems modeling & analytics
+
+
+[People](people.md) | [Research](research.md) | [Projects](projects.md) | [Publications](publications.md)
