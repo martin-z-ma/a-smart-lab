@@ -2,7 +2,7 @@
 
 ## Principal Investigator
 
-<img src="martin-ma.jpg" alt="Martin Ma" width="200" style="border-radius:10px;">
+<img src="Photo-Martin Ma.jpg" alt="Martin Ma" width="200" style="border-radius:10px;">
 
 **Dr. Martin Z. Ma**  
 **A-SMART Lab — Applied Systems Modeling, Analytics, Research & Technology**  
