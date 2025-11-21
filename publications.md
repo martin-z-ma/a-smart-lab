@@ -25,7 +25,8 @@ https://doi.org/10.1021/acs.est.4c02069
 https://doi.org/10.1016/j.jenvman.2024.122522
 25. Heimerl, J., Nolt-Caraway, S., Ma, Z., Chen, B., van Wijk, J., and Mehana, M. Sustainable energy solutions: Well retrofit analysis and emission reduction for a net-zero future in the Intermountain West, United States of America. Journal of Environmental Management
 361 (2024), 121271
-https://doi.org/10.1016/j.jenvman.2024.121271 24. Ma, Z., Ou, X., and Zhang, B. Development of a convolutional neural network based
+https://doi.org/10.1016/j.jenvman.2024.121271
+24. Ma, Z., Ou, X., and Zhang, B. Development of a convolutional neural network based
 geomechanical upscaling technique for heterogeneous geological reservoir. Journal of Rock Mechanics and Geotechnical Engineering 16, 6 (2024), 2111–2125
 https://doi.org/10.1016/j.jrmge.2024.02.009
 23. Chen, B., Morales, M. M., Ma, Z., Kang, Q., and Pawar, R. J. Assimilation of geophysics-derived spatial data for model calibration in geologic CO2 sequestration. SPE Journal (2024), 1–10
