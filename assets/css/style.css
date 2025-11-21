@@ -1,6 +1,6 @@
 /* Make page titles smaller */
 .page-title {
-  font-size: 26px !important;   /* default is ~32px */
+  font-size: 16px !important;   /* default is ~32px */
   color: #444 !important;        /* darker gray */
 }
 
