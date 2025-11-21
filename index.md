@@ -1,6 +1,3 @@
-Applied Systems Modeling, Analytics, Research & Technology (A-SMART) Laboratory
-==============================================================================
-
 Welcome to the A-SMART Lab.
 
 We develop applied modeling, analytics, and optimization methods to solve
