@@ -1,0 +1,16 @@
+/* Make page titles smaller */
+.page-title {
+  font-size: 26px !important;   /* default is ~32px */
+  color: #444 !important;        /* darker gray */
+}
+
+/* Make regular headings smaller */
+h1, h2, h3 {
+  color: #333;
+}
+
+/* Optional: smaller text in news items */
+.news-item {
+  font-size: 14px;
+  color: #444;
+}
