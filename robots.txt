@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Projects | A-SMART Lab</title>
+  <meta name="description" content="Representative A-SMART Lab projects in CCUS infrastructure, scientific machine learning, environmental risk and sustainable process systems.">
+  <meta name="theme-color" content="#0b1f33">
+  <link rel="canonical" href="https://martin-z-ma.github.io/a-smart-lab/projects.html">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Projects | A-SMART Lab">
+  <meta property="og:description" content="Representative A-SMART Lab projects in CCUS infrastructure, scientific machine learning, environmental risk and sustainable process systems.">
+  <meta property="og:url" content="https://martin-z-ma.github.io/a-smart-lab/projects.html">
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script defer src="assets/js/main.js"></script>
+</head>
+<body class="">
+<a class="skip-link" href="#main-content">Skip to content</a>
+<header class="site-header" data-header>
+  <div class="container header-inner">
+    <a class="brand" href="index.html" aria-label="A-SMART Lab home">
+      <span class="brand-mark" aria-hidden="true"><span>A</span></span>
+      <span class="brand-text"><strong>A-SMART Lab</strong><small>Applied Systems Modeling, Analytics, Research &amp; Technology</small></span>
+    </a>
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Open navigation">
+      <span></span><span></span><span></span>
+    </button>
+    <nav class="site-nav" id="site-nav" aria-label="Primary navigation"><a href="index.html">Home</a><a href="research.html">Research</a><a href="projects.html" class="active" aria-current="page">Projects</a><a href="people.html">People</a><a href="publications.html">Publications</a><a href="about.html">About</a><a href="contact.html">Contact</a></nav>
+  </div>
+</header>
+<main id="main-content">
+<section class="page-hero"><div class="container narrow"><p class="eyebrow light">Projects</p><h1>Research that connects methods with real systems.</h1><p>Representative work across infrastructure, subsurface systems, AI-enabled modeling and sustainable process applications.</p></div></section>
+<section class="section">
+  <div class="container project-stack">
+    <article class="project-card featured">
+      <div class="project-meta"><span>Infrastructure · Optimisation · Geospatial</span><span>Representative programme</span></div>
+      <div class="project-layout"><div><h2>SimCCS Development &amp; Applications</h2><p>Large-scale planning frameworks for carbon capture, transport and storage infrastructure. The work integrates source–sink matching, pipeline network design, phased deployment, geospatial constraints and systems-level cost analysis.</p><div class="chip-row"><span>CCUS networks</span><span>Pipeline optimisation</span><span>Phased planning</span><span>Decision support</span></div></div><aside><h3>Research contribution</h3><ul><li>Model and software development</li><li>Large-scale infrastructure simulation</li><li>Applied deployment studies</li><li>Industry and government translation</li></ul></aside></div>
+    </article>
+    <article class="project-card">
+      <div class="project-meta"><span>AI · Subsurface · Real-time decisions</span><span>Research initiative</span></div>
+      <div class="project-layout"><div><h2>Science-Informed Machine Learning for Subsurface Applications</h2><p>Computational workflows that combine scientific simulation and machine learning to accelerate prediction, uncertainty analysis and operational decision-making in complex subsurface environments.</p><div class="chip-row"><span>Scientific ML</span><span>Surrogate models</span><span>Uncertainty</span><span>Fast decisions</span></div></div><aside><h3>Core questions</h3><ul><li>How can simulation be accelerated?</li><li>How should uncertainty be represented?</li><li>When is an AI model reliable?</li><li>How can predictions inform action?</li></ul></aside></div>
+    </article>
+    <article class="project-card">
+      <div class="project-meta"><span>Environment · Data · Risk</span><span>Research consortium</span></div>
+      <div class="project-layout"><div><h2>Assessment of Lost and Orphaned Wells</h2><p>Data-driven and systems approaches to identify undocumented wells, assess environmental impacts and improve mitigation planning. Methods include information extraction, geospatial analysis and risk-informed prioritisation.</p><div class="chip-row"><span>LLMs</span><span>Historical records</span><span>Environmental risk</span><span>Geospatial analytics</span></div></div><aside><h3>Potential impact</h3><ul><li>Better infrastructure inventories</li><li>More targeted field assessment</li><li>Transparent risk prioritisation</li><li>Improved mitigation planning</li></ul></aside></div>
+    </article>
+    <article class="project-card">
+      <div class="project-meta"><span>Food · Chemical · Biological Systems</span><span>Emerging direction</span></div>
+      <div class="project-layout"><div><h2>AI-Enabled Sustainable Process Systems</h2><p>Extending modeling, optimisation and analytics into food, chemical and biological systems, including process monitoring, resource-efficient design, sustainable supply systems and evidence-based decision support.</p><div class="chip-row"><span>Food systems</span><span>Bioprocesses</span><span>Quality analytics</span><span>Sustainability</span></div></div><aside><h3>Collaboration areas</h3><ul><li>Industrial data and use cases</li><li>Joint student supervision</li><li>Applied software development</li><li>Techno-economic analysis</li></ul></aside></div>
+    </article>
+  </div>
+</section>
+</main>
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div>
+      <a class="brand brand-footer" href="index.html">
+        <span class="brand-mark" aria-hidden="true"><span>A</span></span>
+        <span class="brand-text"><strong>A-SMART Lab</strong><small>Model. Analyse. Optimise. Translate.</small></span>
+      </a>
+      <p>Applied computational research for resilient, sustainable and intelligent engineered systems.</p>
+    </div>
+    <div>
+      <h2>Explore</h2>
+      <a href="research.html">Research</a>
+      <a href="projects.html">Projects</a>
+      <a href="publications.html">Publications</a>
+      <a href="people.html">People</a>
+    </div>
+    <div>
+      <h2>Contact</h2>
+      <a href="mailto:martin.ma@singaporetech.edu.sg">martin.ma@singaporetech.edu.sg</a>
+      <p>Singapore Institute of Technology<br>Singapore</p>
+    </div>
+  </div>
+  <div class="container footer-bottom">
+    <span>&copy; <span data-current-year>2026</span> A-SMART Lab.</span>
+    <span>Built for GitHub Pages.</span>
+  </div>
+</footer>
+</body>
+</html>
