@@ -1,60 +1,61 @@
-
-(() => {
-  const navToggle = document.querySelector('.nav-toggle');
-  const nav = document.querySelector('.site-nav');
-  if (navToggle && nav) {
-    navToggle.addEventListener('click', () => {
-      const open = navToggle.getAttribute('aria-expanded') === 'true';
-      navToggle.setAttribute('aria-expanded', String(!open));
-      nav.classList.toggle('open', !open);
-    });
-    nav.querySelectorAll('a').forEach(link => link.addEventListener('click', () => {
-      nav.classList.remove('open');
-      navToggle.setAttribute('aria-expanded', 'false');
-    }));
-  }
-
-  document.querySelectorAll('[data-current-year]').forEach(el => el.textContent = new Date().getFullYear());
-
-  const reveals = document.querySelectorAll('.reveal');
-  if ('IntersectionObserver' in window) {
-    const observer = new IntersectionObserver(entries => {
-      entries.forEach(entry => {
-        if (entry.isIntersecting) {
-          entry.target.classList.add('visible');
-          observer.unobserve(entry.target);
-        }
-      });
-    }, {threshold: .12});
-    reveals.forEach(el => observer.observe(el));
-  } else {
-    reveals.forEach(el => el.classList.add('visible'));
-  }
-
-  const list = document.querySelector('[data-publication-list]');
-  if (list) {
-    const items = [...list.querySelectorAll('.publication-item')];
-    const input = document.querySelector('[data-pub-search]');
-    const buttons = [...document.querySelectorAll('[data-filter]')];
-    const noResults = document.querySelector('[data-no-results]');
-    let filter = 'all';
-    const update = () => {
-      const query = (input?.value || '').trim().toLowerCase();
-      let shown = 0;
-      items.forEach(item => {
-        const yearOK = filter === 'all' || item.dataset.year === filter;
-        const textOK = !query || item.dataset.search.includes(query);
-        item.hidden = !(yearOK && textOK);
-        if (!item.hidden) shown++;
-      });
-      if (noResults) noResults.hidden = shown !== 0;
-    };
-    input?.addEventListener('input', update);
-    buttons.forEach(button => button.addEventListener('click', () => {
-      buttons.forEach(b => b.classList.remove('active'));
-      button.classList.add('active');
-      filter = button.dataset.filter;
-      update();
-    }));
-  }
-})();
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Page not found | A-SMART Lab</title>
+  <meta name="description" content="The requested A-SMART Lab page could not be found.">
+  <meta name="theme-color" content="#0b1f33">
+  <link rel="canonical" href="https://martin-z-ma.github.io/a-smart-lab/.html">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Page not found | A-SMART Lab">
+  <meta property="og:description" content="The requested A-SMART Lab page could not be found.">
+  <meta property="og:url" content="https://martin-z-ma.github.io/a-smart-lab/.html">
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script defer src="assets/js/main.js"></script>
+</head>
+<body class="">
+<a class="skip-link" href="#main-content">Skip to content</a>
+<header class="site-header" data-header>
+  <div class="container header-inner">
+    <a class="brand" href="index.html" aria-label="A-SMART Lab home">
+      <span class="brand-mark" aria-hidden="true"><span>A</span></span>
+      <span class="brand-text"><strong>A-SMART Lab</strong><small>Applied Systems Modelling, Analytics, Risk and Transition</small></span>
+    </a>
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Open navigation">
+      <span></span><span></span><span></span>
+    </button>
+    <nav class="site-nav" id="site-nav" aria-label="Primary navigation"><a href="index.html">Home</a><a href="research.html">Research</a><a href="projects.html">Projects</a><a href="people.html">People</a><a href="publications.html">Publications</a><a href="about.html">About</a><a href="contact.html">Contact</a></nav>
+  </div>
+</header>
+<main id="main-content"><section class="not-found"><div class="container narrow"><p class="error-code">404</p><h1>That page is not part of the system.</h1><p>The address may have changed, or the page may no longer exist.</p><a class="button button-primary" href="index.html">Return home</a></div></section></main>
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div>
+      <a class="brand brand-footer" href="index.html">
+        <span class="brand-mark" aria-hidden="true"><span>A</span></span>
+        <span class="brand-text"><strong>A-SMART Lab</strong><small>Model. Analyse. Optimise. Translate.</small></span>
+      </a>
+      <p>Applied computational research for resilient, sustainable and intelligent engineered systems.</p>
+    </div>
+    <div>
+      <h2>Explore</h2>
+      <a href="research.html">Research</a>
+      <a href="projects.html">Projects</a>
+      <a href="publications.html">Publications</a>
+      <a href="people.html">People</a>
+    </div>
+    <div>
+      <h2>Contact</h2>
+      <a href="mailto:martin.ma@singaporetech.edu.sg">martin.ma@singaporetech.edu.sg</a>
+      <p>Singapore Institute of Technology<br>Singapore</p>
+    </div>
+  </div>
+  <div class="container footer-bottom">
+    <span>&copy; <span data-current-year>2026</span> A-SMART Lab.</span>
+    <span>Built for GitHub Pages.</span>
+  </div>
+</footer>
+</body>
+</html>

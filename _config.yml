@@ -1,22 +1,6 @@
 title: "A-SMART Lab"
-description: "Applied Systems Modeling, Analytics, Research & Technology"
-theme: minima
-
-minima:
-  skin: classic
-
-sass:
-  sass_dir: assets/css
-
-include:
-  - assets/css/style.css
-
-header_pages:
-  - PI.md
-  - people.md
-  - research.md
-  - projects.md
-  - publications.md
-  - collaborators.md
-  - sponsors.md
-  - news.md
+description: "Applied Systems Modelling, Analytics, Risk and Transition"
+url: "https://martin-z-ma.github.io"
+baseurl: "/a-smart-lab"
+exclude:
+  - README.md

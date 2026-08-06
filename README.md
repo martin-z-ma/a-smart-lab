@@ -1,69 +1,35 @@
-<!doctype html>
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>News | A-SMART Lab</title>
-  <meta name="description" content="Research and lab updates from the A-SMART Lab.">
-  <meta name="theme-color" content="#0b1f33">
-  <link rel="canonical" href="https://martin-z-ma.github.io/a-smart-lab/news.html">
-  <meta property="og:type" content="website">
-  <meta property="og:title" content="News | A-SMART Lab">
-  <meta property="og:description" content="Research and lab updates from the A-SMART Lab.">
-  <meta property="og:url" content="https://martin-z-ma.github.io/a-smart-lab/news.html">
-  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="assets/css/style.css">
-  <script defer src="assets/js/main.js"></script>
-</head>
-<body class="">
-<a class="skip-link" href="#main-content">Skip to content</a>
-<header class="site-header" data-header>
-  <div class="container header-inner">
-    <a class="brand" href="index.html" aria-label="A-SMART Lab home">
-      <span class="brand-mark" aria-hidden="true"><span>A</span></span>
-      <span class="brand-text"><strong>A-SMART Lab</strong><small>Applied Systems Modeling, Analytics, Research &amp; Technology</small></span>
-    </a>
-    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Open navigation">
-      <span></span><span></span><span></span>
-    </button>
-    <nav class="site-nav" id="site-nav" aria-label="Primary navigation"><a href="index.html">Home</a><a href="research.html">Research</a><a href="projects.html">Projects</a><a href="people.html">People</a><a href="publications.html">Publications</a><a href="about.html">About</a><a href="contact.html">Contact</a></nav>
-  </div>
-</header>
-<main id="main-content">
-<section class="page-hero"><div class="container narrow"><p class="eyebrow light">News</p><h1>Updates from the A-SMART Lab.</h1><p>Selected research, publication and lab developments.</p></div></section>
-<section class="section"><div class="container news-list">
-  <article><time datetime="2026-08">August 2026</time><div><h2>New A-SMART Lab website design</h2><p>The lab website was redesigned to better communicate its research themes, people, projects and publications.</p></div></article>
-  <article><time datetime="2025">2025</time><div><h2>Research on existing CO₂ pipeline corridors published</h2><p>A study on leveraging existing pipeline infrastructure and rights-of-way for large-scale CCS deployment appeared in <em>Geoenergy Science and Engineering</em>.</p><a href="https://doi.org/10.1016/j.geoen.2025.214063" target="_blank" rel="noopener">Read the paper <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M14 4h6v6M20 4l-9 9"/><path d="M19 13v7H4V5h7"/></svg></a></div></article>
-  <article><time datetime="2024">2024</time><div><h2>Large language models applied to historical well records</h2><p>Research on extracting information from historical well records using a large language model was published in <em>Scientific Reports</em>.</p><a href="https://doi.org/10.1038/s41598-024-81846-5" target="_blank" rel="noopener">Read the paper <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M14 4h6v6M20 4l-9 9"/><path d="M19 13v7H4V5h7"/></svg></a></div></article>
-  <article><time datetime="2025-01">January 2025</time><div><h2>A-SMART Lab website launched</h2><p>The initial public website for the Applied Systems Modeling, Analytics, Research &amp; Technology Lab went online.</p></div></article>
-</div></section>
-</main>
-<footer class="site-footer">
-  <div class="container footer-grid">
-    <div>
-      <a class="brand brand-footer" href="index.html">
-        <span class="brand-mark" aria-hidden="true"><span>A</span></span>
-        <span class="brand-text"><strong>A-SMART Lab</strong><small>Model. Analyse. Optimise. Translate.</small></span>
-      </a>
-      <p>Applied computational research for resilient, sustainable and intelligent engineered systems.</p>
-    </div>
-    <div>
-      <h2>Explore</h2>
-      <a href="research.html">Research</a>
-      <a href="projects.html">Projects</a>
-      <a href="publications.html">Publications</a>
-      <a href="people.html">People</a>
-    </div>
-    <div>
-      <h2>Contact</h2>
-      <a href="mailto:martin.ma@singaporetech.edu.sg">martin.ma@singaporetech.edu.sg</a>
-      <p>Singapore Institute of Technology<br>Singapore</p>
-    </div>
-  </div>
-  <div class="container footer-bottom">
-    <span>&copy; <span data-current-year>2026</span> A-SMART Lab.</span>
-    <span>Built for GitHub Pages.</span>
-  </div>
-</footer>
-</body>
-</html>
+# A-SMART Lab — Professional GitHub Pages Site
+
+This folder is a complete static website designed for the repository:
+
+`https://github.com/martin-z-ma/a-smart-lab`
+
+## Publish it
+
+1. Download and unzip the package.
+2. In your GitHub repository, remove the old website files or upload these files and allow replacement.
+3. Keep the folder structure exactly as provided.
+4. Commit the changes to the `main` branch.
+5. Open **Settings → Pages** and choose **Deploy from a branch**, `main`, `/(root)`.
+6. Visit `https://martin-z-ma.github.io/a-smart-lab/` after the deployment finishes.
+
+The `.nojekyll` file is intentional. This version is plain HTML/CSS/JavaScript and does not require a Jekyll theme.
+
+## Most useful edits
+
+- Homepage wording: `index.html`
+- Biography: `about.html`
+- Research areas: `research.html`
+- Projects: `projects.html`
+- Team members: `people.html`
+- Publication list: `publications.html`
+- Email and footer text: each HTML page (search for `martin.ma@singaporetech.edu.sg`)
+- Colours and layout: `assets/css/style.css`
+- Portrait: replace `assets/img/martin-ma.jpg` with a file using the same name
+
+## Notes before publishing
+
+- Review the student names and project titles on `people.html`.
+- Review the biography, publication count and project descriptions for any updates.
+- The publication list was reformatted from the existing repository. Two malformed DOI links in the source were repaired during formatting.
+- `news.html` is included but is not shown in the main navigation; you can add it later when you have more updates.
